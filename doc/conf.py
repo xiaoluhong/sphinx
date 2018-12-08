@@ -6,7 +6,6 @@ import re
 
 import sphinx
 
-
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo',
               'sphinx.ext.autosummary', 'sphinx.ext.extlinks',
               'sphinx.ext.viewcode']
@@ -15,7 +14,7 @@ master_doc = 'contents'
 templates_path = ['_templates']
 exclude_patterns = ['_build']
 
-project = 'Sphinx'
+project = 'Rancher-docs'
 copyright = '2007-2018, Georg Brandl and the Sphinx team'
 version = sphinx.__display_version__
 release = version
@@ -29,7 +28,9 @@ html_sidebars = {'index': ['indexsidebar.html', 'searchbox.html']}
 html_additional_pages = {'index': 'index.html'}
 html_use_opensearch = 'http://sphinx-doc.org'
 
-htmlhelp_basename = 'Sphinxdoc'
+htmlhelp_basename = 'Rancher-docs'
+
+source_suffix = '.md'
 
 epub_theme = 'epub'
 epub_basename = 'sphinx'

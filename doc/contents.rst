@@ -1,37 +1,22 @@
-
 .. _contents:
 
-Sphinx documentation contents
+Rancher documentation contents
 =============================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-   usage/installation
-   usage/quickstart
-   usage/restructuredtext/index
-   usage/markdown
-   usage/configuration
-   usage/builders/index
-   usage/extensions/index
-   usage/theming
-   usage/advanced/intl
-   usage/advanced/setuptools
-   usage/advanced/websupport/index
+   usage/admin-settings
+   usage/admin-settings/agent-options
+   usage/admin-settings/api-audit-log
+   usage/admin-settings/authentication
+   usage/admin-settings/custom-ca-root-certificate
+   usage/admin-settings/pod-security-policies
+   usage/admin-settings/rbac
+   usage/admin-settings/removing-rancher
+   usage/admin-settings/server-url
 
-   intro
-   man/index
-   theming
-   templating
-   latex
-   extdev/index
 
-   faq
-   glossary
-   devguide
-   changes
-   examples
-   authors
 
 
 
