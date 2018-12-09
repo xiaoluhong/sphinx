@@ -30,7 +30,7 @@ html_use_opensearch = 'http://sphinx-doc.org'
 
 htmlhelp_basename = 'Rancher-docs'
 
-source_suffix = ['.rst', '.md']
+source_suffix = '.md'
 
 epub_theme = 'epub'
 epub_basename = 'sphinx'
@@ -92,24 +92,24 @@ extlinks = {'duref': ('http://docutils.sourceforge.net/docs/ref/rst/'
             'dudir': ('http://docutils.sourceforge.net/docs/ref/rst/'
                       'directives.html#%s', '')}
 
-man_pages = [
-    ('contents', 'sphinx-all', 'Sphinx documentation generator system manual',
-     'Georg Brandl', 1),
-    ('man/sphinx-build', 'sphinx-build', 'Sphinx documentation generator tool',
-     '', 1),
-    ('man/sphinx-quickstart', 'sphinx-quickstart', 'Sphinx documentation '
-     'template generator', '', 1),
-    ('man/sphinx-apidoc', 'sphinx-apidoc', 'Sphinx API doc generator tool',
-     '', 1),
-    ('man/sphinx-autogen', 'sphinx-autogen', 'Generate autodoc stub pages',
-     '', 1),
-]
-
-texinfo_documents = [
-    ('contents', 'sphinx', 'Sphinx Documentation', 'Georg Brandl',
-     'Sphinx', 'The Sphinx documentation builder.', 'Documentation tools',
-     1),
-]
+#man_pages = [
+#    ('contents', 'sphinx-all', 'Sphinx documentation generator system manual',
+#     'Georg Brandl', 1),
+#    ('man/sphinx-build', 'sphinx-build', 'Sphinx documentation generator tool',
+#     '', 1),
+#    ('man/sphinx-quickstart', 'sphinx-quickstart', 'Sphinx documentation '
+#     'template generator', '', 1),
+#    ('man/sphinx-apidoc', 'sphinx-apidoc', 'Sphinx API doc generator tool',
+#     '', 1),
+#    ('man/sphinx-autogen', 'sphinx-autogen', 'Generate autodoc stub pages',
+#     '', 1),
+#]
+#
+#texinfo_documents = [
+#    ('contents', 'sphinx', 'Sphinx Documentation', 'Georg Brandl',
+#     'Sphinx', 'The Sphinx documentation builder.', 'Documentation tools',
+#     1),
+#]
 
 # We're not using intersphinx right now, but if we did, this would be part of
 # the mapping:
