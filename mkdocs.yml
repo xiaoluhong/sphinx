@@ -1,0 +1,9 @@
+site_name: MkDocs
+
+nav:
+    - Home: index.md
+    - admin-settings: admin-settings/agent-options/_index.md
+
+markdown_extensions:
+    - toc:
+        permalink: 
