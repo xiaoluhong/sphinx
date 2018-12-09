@@ -1,10 +1,4 @@
----
-title: Amazon AWS Quick Start
-weight: 100
----
-The following steps will quickly deploy a Rancher Server with a single node cluster attached.
-
-## Prerequisites
+# Amazon AWS Quick Start
 
 >**Note**
 >Deploying to Amazon AWS will incur charges.
@@ -25,11 +19,11 @@ The following steps will quickly deploy a Rancher Server with a single node clus
 
 4. Edit `terraform.tfvars` and customize the following variables at minimum. To change node counts and sizes, see `node sizes`.
 
-  - `aws_access_key` - Amazon AWS Access Key 
+  - `aws_access_key` - Amazon AWS Access Key
   - `aws_secret_key` - Amazon AWS Secret Key
   - `ssh_key_name` - Amazon AWS Key Pair Name
   - `prefix` - Resource Prefix
-  
+
 5. **Optional:** Modify the count of the various node types within `terraform.tfvars`. See the [Quickstart Readme](https://github.com/rancher/quickstart) for more information on the variables.
 
 6. Run `terraform init`.
@@ -37,10 +31,10 @@ The following steps will quickly deploy a Rancher Server with a single node clus
 7. To initiate the creation of the environment, run `terraform apply`. Then wait for the following output:
 
 	```
-	Apply complete! Resources: 3 added, 0 changed, 0 destroyed. 
-	  Outputs: 
-	  rancher-url = [ 
-              https://xxx.xxx.xxx.xxx 
+	Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
+	  Outputs:
+	  rancher-url = [
+              https://xxx.xxx.xxx.xxx
       ]
 	```
 

@@ -1,7 +1,4 @@
----
-title: Deploying Rancher Server
-weight: 100
----
+# Deploying Rancher Server
 
 The following are the current guides for provisioning Rancher Server and a cluster:
 

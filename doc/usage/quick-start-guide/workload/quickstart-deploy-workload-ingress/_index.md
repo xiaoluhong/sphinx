@@ -1,9 +1,4 @@
----
-title: Workload with Ingress Quick Start
-weight: 100
----
-
-### Prerequisite
+# Prerequisite
 
 You have a running cluster with at least 1 node.
 

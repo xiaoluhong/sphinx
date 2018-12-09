@@ -1,10 +1,4 @@
----
-shortTitle: Rancher 2.x
-insertOneSix: true
-weight: 1
----
-
-## What's New?
+# What's New
 
 The previous version of Rancher, version 1.6, was a container management platform built on Docker. Rancher 2.x builds on the success and experience of Rancher 1.6.
 

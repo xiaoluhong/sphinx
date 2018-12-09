@@ -6,15 +6,11 @@ Rancher documentation contents
 .. toctree::
    :maxdepth: 3
 
-   usage/admin-settings
-   usage/admin-settings/agent-options
-   usage/admin-settings/api-audit-log
-   usage/admin-settings/authentication
-   usage/admin-settings/custom-ca-root-certificate
-   usage/admin-settings/pod-security-policies
-   usage/admin-settings/rbac
-   usage/admin-settings/removing-rancher
-   usage/admin-settings/server-url
+   usage/quick-start-guide
+   usage/quick-start-guide/deployment
+   usage/quick-start-guide/workload
+
+
 
 
 

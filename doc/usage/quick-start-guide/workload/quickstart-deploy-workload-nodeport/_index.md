@@ -1,9 +1,4 @@
----
-title: Workload with NodePort Quick Start
-weight: 200
----
-
-### Prerequisite
+# Prerequisite
 
 You have a running cluster with at least 1 node.
 
