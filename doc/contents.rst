@@ -7,6 +7,7 @@ Rancher documentation contents
    :maxdepth: 2
 
    usage/quick-start-guide/deployment/amazon-aws-qs
+   usage/quickstart-vagrant/_index
 
 Indices and tables
 ==================
