@@ -1,25 +1,26 @@
 Amazon AWS Quick Start
 ======================
 
-    **Note** Deploying to Amazon AWS will incur charges.
+::
 
--  `Amazon AWS Account <https://aws.amazon.com/account/>`__: An Amazon
-   AWS Account is required to create resources for deploying Rancher and
-   Kubernetes.
--  `Amazon AWS Access
-   Key <https://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html>`__:
+   **Note** Deploying to Amazon AWS will incur charges.
+
+-  ``Amazon AWS Account <https://aws.amazon.com/account/>``\ \__: An
+   Amazon AWS Account is required to create resources for deploying
+   Rancher and Kubernetes.
+-  ``Amazon AWS Access Key <https://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html>``\ \__:
    Use this link to follow a tutorial to create an Amazon AWS Access Key
-   if you don't have one yet.
--  `Amazon AWS Key
-   Pair <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair>`__
+   if you don’t have one yet.
+-  ``Amazon AWS Key Pair <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair>``\ \_\_
    Use this link and follow instructions to create a Key Pair.
--  `Terraform <https://www.terraform.io/downloads.html>`__: Used to
+-  ``Terraform <https://www.terraform.io/downloads.html>``\ \__: Used to
    provision the server and cluster in Amazon AWS.
 
 Getting Started
 ---------------
 
-1. Clone `Rancher Quickstart <https://github.com/rancher/quickstart>`__
+1. Clone
+   ``Rancher Quickstart <https://github.com/rancher/quickstart>``\ \_\_
    to a folder using
    ``git clone https://github.com/rancher/quickstart``.
 
@@ -37,9 +38,9 @@ Getting Started
 -  ``prefix`` - Resource Prefix
 
 5. **Optional:** Modify the count of the various node types within
-   ``terraform.tfvars``. See the `Quickstart
-   Readme <https://github.com/rancher/quickstart>`__ for more
-   information on the variables.
+   ``terraform.tfvars``. See the
+   ``Quickstart Readme <https://github.com/rancher/quickstart>``\ \_\_
+   for more information on the variables.
 
 6. Run ``terraform init``.
 
@@ -48,11 +49,13 @@ Getting Started
 
    ::
 
-       Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
-         Outputs:
-         rancher-url = [
-                 https://xxx.xxx.xxx.xxx
-         ]
+   ::
+
+      Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
+        Outputs:
+        rancher-url = [
+                https://xxx.xxx.xxx.xxx
+        ]
 
 8. Paste the ``rancher-url`` from the output above into the browser. Log
    in when prompted (default password is ``admin``).
@@ -60,11 +63,10 @@ Getting Started
 **Result:** Rancher Server and your Kubernetes cluster is installed in
 Amazon AWS.
 
-What's Next?
-~~~~~~~~~~~~
+What’s Next? ~~~~~~~~~~~~
 
-Use Rancher to create a deployment. For more information, see `Creating
-Deployments <{{<%20baseurl%20>}}/rancher/v2.x/en/quick-start-guide/workload>`__.
+Use Rancher to create a deployment. For more information, see
+``Creating Deployments <{{<%20baseurl%20>}}/rancher/v2.x/en/quick-start-guide/workload>``\ \__.
 
 Destroying the Environment
 --------------------------
