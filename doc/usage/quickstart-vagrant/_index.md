@@ -1,10 +1,4 @@
----
-title: Vagrant Quick Start
-weight: 200
----
-The following steps quickly deploy a Rancher Server with a single node cluster attached.
-
-## Prerequisites
+# Vagrant Quick Start
 
 - [Vagrant](https://www.vagrantup.com): Vagrant is required as this is used to provision the machine based on the Vagrantfile.
 - [Virtualbox](https://www.virtualbox.org): The virtual machines that Vagrant provisions need to be provisioned to VirtualBox.
