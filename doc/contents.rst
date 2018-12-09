@@ -6,9 +6,7 @@ Rancher documentation contents
 .. toctree::
    :maxdepth: 2
 
-   usage/quick-start-guide
-   usage/quick-start-guide/deployment
-   usage/quick-start-guide/workload
+   usage/quick-start-guide/deployment/amazon-aws-qs
 
 Indices and tables
 ==================
