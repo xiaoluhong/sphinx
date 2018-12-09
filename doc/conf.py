@@ -30,7 +30,7 @@ html_use_opensearch = 'http://sphinx-doc.org'
 
 htmlhelp_basename = 'Rancher-docs'
 
-source_suffix = '.md'
+source_suffix = ['.rst', '.md']
 
 epub_theme = 'epub'
 epub_basename = 'sphinx'

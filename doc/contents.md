@@ -10,12 +10,6 @@ Rancher documentation contents
    usage/quick-start-guide/deployment
    usage/quick-start-guide/workload
 
-
-
-
-
-
-
 Indices and tables
 ==================
 
